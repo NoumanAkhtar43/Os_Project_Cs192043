@@ -1,22 +1,6 @@
 Microsoft Windows [Version 10.0.19042.1052]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Program Files\MySQL\MySQL Server 5.7\bin>mysql -uroot
-ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
-
-C:\Program Files\MySQL\MySQL Server 5.7\bin>
-
-C:\Program Files\MySQL\MySQL Server 5.7\bin>mysqladmin -u root password [newpassword]
-mysqladmin: connect to server at 'localhost' failed
-error: 'Access denied for user 'root'@'localhost' (using password: NO)'
-
-C:\Program Files\MySQL\MySQL Server 5.7\bin>mysqladmin -u root password [admin]
-mysqladmin: connect to server at 'localhost' failed
-error: 'Access denied for user 'root'@'localhost' (using password: NO)'
-
-C:\Program Files\MySQL\MySQL Server 5.7\bin>mysql -uroot
-ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
-
 C:\Program Files\MySQL\MySQL Server 5.7\bin>mysql -uroot -p
 Enter password: *****
 Welcome to the MySQL monitor.  Commands end with ; or \g.
